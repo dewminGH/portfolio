@@ -1,13 +1,13 @@
 'use client';
 
-// import { ColorPolygon } from '@portfolio/NexUI';
+import { ColorPolygon } from '@portfolio/NexUI';
 
 const PortfolioHome = () => {
   return (
-    <div>
-      TexT
-      <ColorPolygo />
-    </div>
+    <>
+      sample1
+      <ColorPolygon />
+    </>
   );
 };
 
