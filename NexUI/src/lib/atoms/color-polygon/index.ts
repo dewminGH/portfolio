@@ -1,1 +1,1 @@
-export { default as ColorPolygon } from './ColorPolygon';
+export { default as ColorPolygon } from './color-polygon';

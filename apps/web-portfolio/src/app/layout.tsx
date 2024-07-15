@@ -1,3 +1,4 @@
+import { LayoutPaddingManager } from './components';
 import './global.css';
 import { StyledComponentsRegistry } from './registry';
 
@@ -14,7 +15,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
+        <StyledComponentsRegistry>
+          <LayoutPaddingManager>{children}</LayoutPaddingManager>
+        </StyledComponentsRegistry>
       </body>
     </html>
   );
